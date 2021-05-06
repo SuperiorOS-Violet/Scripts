@@ -1,23 +1,23 @@
 #!/bin/bash
 
 # Telegram Config
-TOKEN="" # Bot Token
-CHATID="-1001180591337"
+TOKEN="1429088807:AAFDbK2vjvtOOqwALyZrSY_50qspu45CC18" # Bot Token
+CHATID="-1001471632092"
 BOT_MSG_URL="https://api.telegram.org/bot${TOKEN}/sendMessage"
 BOT_LOG_URL="https://api.telegram.org/bot${TOKEN}/sendDocument"
 BOT_STICKER_URL="https://api.telegram.org/bot${TOKEN}/sendSticker"
 
 # General Rom Settings
 device="violet"
-rom="colt"
-build="userdebug"
-zip="out/target/product/violet/*Official*.zip"
-make="make colt"
+rom="p404"
+build="eng"
+zip="out/target/product/violet/*unofficial*.zip"
+make="make bacon"
 clean="" # make installclean(preffered) , make clean
 
 # Upload Stuffs
-gdrivedir="Colt-test" # Directory to upload the file
-index="https://builds.athuld.workers.dev/0:" # gdrive index link
+gdrivedir="Dark-world" # Directory to upload the file
+index="https://index.nipin-joker.workers.dev/0:/" # gdrive index link
 rclone="gdrive" # rclone remote
 
 # Build Machine details
